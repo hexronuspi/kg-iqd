@@ -8,7 +8,7 @@
   "export": "next export",
   "start": "next start",
   "lint": "next lint",
-  "deploy": "next build && rm -rf ../docs && cp -r out ../docs && touch ../docs/.nojekyll"
+  "deploy": "next build && touch out/.nojekyll"
 }
 ,
   "dependencies": {
