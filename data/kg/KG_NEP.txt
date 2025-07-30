@@ -1,0 +1,194 @@
+data = {
+    'coordinates': '28.230,84.731',
+    'country': 'Nepal',
+    'region': 'Gorkha District, Kathmandu Valley',
+    'climate_zone': 'NaN',
+    'terrain_type': 'Mountainous, Hilly, Tectonic Basin',
+    'causes': 'Collision and underthrusting of the Indian plate beneath the Eurasian plate, causing a slip along the Main Himalayan Thrust fault.',
+    'occurrence': {
+        'frequency': 'Rare, with major recurrence intervals of 700-870 years.',
+        'magnitude': '7.8',
+        'trigger': 'Tectonic stress buildup and sudden thrust fault rupture.',
+        'seasonality': 'Year-round risk; event occurred in pre-monsoon season (April).'
+    },
+    'hazard_characteristics': {
+        'hazard_subtypes': 'earthquake, aftershocks, landslides, avalanches, liquefaction',
+        'intensity_metrics': 'Mw 7.8, Ms 8.1, MMI X (Extreme)',
+        'spatial_extent': 'Affected Nepal, India, China, and Bangladesh. 31 districts in Nepal severely affected, including 14 declared crisis-hit.',
+        'duration': 'Approximately 50 seconds for the mainshock.',
+        'seasonal_patterns': 'Main quake in dry season; subsequent monsoon season increased landslide and disease risk.',
+        'predictability': 'Low for exact timing, but high long-term vulnerability was well-documented by scientists for decades.'
+    },
+    'environmental_impacts': {
+        'biodiversity_loss': 'NaN',
+        'ecosystem_disruption': 'Major avalanches on Mount Everest and in Langtang Valley, destroying villages. A glacial lake burst in Solukhumbhu district.',
+        'soil_degradation': 'Widespread landslides, particularly in Langtang Valley and along Koshi Highway, altering landscapes.',
+        'water_contamination': 'High risk of waterborne diseases like cholera and diarrhoea due to damaged water supplies and displacement into camps.',
+        'air_quality_impact': 'Significant dust clouds from collapsed buildings in urban areas like Kathmandu.',
+        'carbon_footprint': 'NaN'
+    },
+    'societal_impacts': {
+        'education_disruption': '14,500 classrooms destroyed; 274 out of 323 schools assessed were damaged. Mass casualties of children were avoided as the quake hit on a Saturday.',
+        'employment_impact': 'Tourism, which accounts for 8% of the economy, was severely affected. Harvests were at risk as the planting season was disrupted.',
+        'community_resilience': 'Strong social harmony reported, with minimal looting. Self-reliant youth and volunteer groups were active in rescue and relief.',
+        'cultural_heritage_damage': 'Widespread destruction of UNESCO World Heritage sites in Kathmandu Valley, including Durbar Squares in Kathmandu, Patan, and Bhaktapur, and the Dharahara Tower.',
+        'public_sentiment': 'Initial panic and fear, with some locals accusing the government of slow aid distribution.',
+        'displacement_patterns': '3.5 million people left homeless, leading to 2.6 million internal displacements into temporary camps and open spaces.'
+    },
+    'economic_details': {
+        'indirect_economic_losses': '1500000000.0',
+        'reconstruction_costs': '10000000000.0',
+        'insurance_penetration': 'Very low; less than $3.50 per capita spent annually on property and casualty insurance.',
+        'relief_funding_sources': 'International aid, bilateral donations (e.g., India, China), multi-donor trust funds, crowdfunding, remittances.',
+        'economic_recovery_indicators': 'Pushed an additional 700,000 people into poverty. Remittances, equivalent to over 25% of GDP, served as a critical safety net.'
+    },
+    'response_enhancements': {
+        'response_timelines': 'First government meeting held within 2 hours. India responded within hours with Operation Maitri. International teams arrived subsequently.',
+        'volunteer_involvement': 'About 90% of the Nepalese Army (66,069 soldiers) mobilized. Thousands of national and international volunteers, including youth and professionals, participated in rescue and crowdmapping.',
+        'logistical_challenges': 'Impassable roads, airport congestion, limited helicopter capacity, damaged communication infrastructure, and customs delays hampered relief efforts.',
+        'shelter_capacity': 'Hundreds of thousands housed in temporary shelters, tents, and makeshift camps in open spaces.',
+        'post_event_policies': 'Establishment of the National Reconstruction Authority (NRA) and a Post Earthquake Recovery and Reconstruction Policy to guide rebuilding with a Build Back Better (BBB) principle.',
+        'technology_used': 'Crisis mapping (OpenStreetMap), remote sensing (InSAR, satellites), drones for damage assessment, high-rate GPS for monitoring ground motion, FINDER heartbeat detectors for rescue.'
+    },
+    'health_details': {
+        'vaccination_campaigns': 'NaN',
+        'mental_health_programs': 'Psychological support provided to children and others affected by extreme shock and trauma.',
+        'healthcare_access': 'Severely compromised; 80% of health facilities in 5 worst-hit districts damaged. 400 health posts destroyed. Retrofitted hospitals in Kathmandu, however, remained functional.',
+        'infectious_disease_spread': 'Outbreaks of scrub typhus (13 deaths) and concerns over waterborne diseases like cholera and diarrhoea.',
+        'nutrition_impacts': 'Malnutrition in children worsened significantly post-quake, especially among vulnerable ethnic groups like Tamang and Chepang.',
+        'medical_supply_shortages': 'Urgent need for medical supplies, leading to international appeals. Field hospitals and mobile medical teams were deployed.'
+    },
+    'infrastructure_utilities': {
+        'power_outages': 'Long hours of power outages reported in Kathmandu and other affected areas.',
+        'water_supply_impact': 'Shortage of clean water reported, with only 1 in 5 people in Bhaktapur having access to it.',
+        'transportation_networks': 'Tribhuvan International Airport closed initially. Roads and highways, like the Koshi Highway, were blocked by landslides.',
+        'telecommunications_recovery': 'Poor phone network coverage hampered initial damage assessment and coordination.',
+        'critical_facilities': 'Extensive damage to schools (14,500 classrooms destroyed), hospitals (400 health posts destroyed), and government buildings.',
+        'building_damage_assessment': '602,567 houses completely destroyed and 284,479 partially damaged. Over 90% of buildings in Nepal were non-engineered.'
+    },
+    'scientific_data': {
+        'precursor_events': 'Seismologists had warned for decades of high earthquake risk in the region due to accumulated tectonic stress in the Central Himalayan Gap.',
+        'real_time_monitoring': 'Data captured by 5-Hz continuous GPS stations, accelerometers, and a nationwide seismic network (seismonepal.gov.np).',
+        'post_event_analysis': 'Studies used InSAR, GPS data, and teleseismic P waves for kinematic slip inversion, fault modeling, and analysis of ground motion, including valley resonance effects in Kathmandu.',
+        'climate_data_integration': 'NaN',
+        'geological_changes': 'Kathmandu Valley shifted 3 meters south. Permanent tectonic offset and uplift (up to 1.26m) observed. Widespread fracturing in the Langtang area, increasing future landslide risk.',
+        'hazard_modeling': 'Models like QLARM were used to estimate fatalities. The rupture was modeled as a slip along the Main Frontal Thrust with a shallow dip.'
+    },
+    'policy_governance': {
+        'government_response_levels': 'Central Natural Disaster Relief Committee (CNDRC) coordinated the initial response. A National Reconstruction Authority (NRA) was later established for long-term recovery.',
+        'international_treaties': 'NaN',
+        'community_feedback_mechanisms': 'Reports of public dissatisfaction with the speed of government aid distribution.',
+        'regulatory_gaps': 'Outdated seismic hazard maps, need for a new Disaster Management Act, and lack of enforcement of building codes were identified as major gaps.',
+        'cross_border_impacts': 'The earthquake was felt and caused casualties and damage in India, China, and Bangladesh. Relief efforts involved cross-border coordination.',
+        'legal_actions': 'NaN'
+    },
+    'technology_innovation': {
+        'ai_tech_interventions': 'NaN',
+        'remote_sensing_data': 'InSAR data from ALOS-2 satellite and other satellite imagery used to map ground displacement and damage.',
+        'crowdsourced_data': 'Kathmandu Living Labs coordinated global volunteers for crisis mapping on OpenStreetMap, and ICCROM ran a crowd map for cultural heritage damage.',
+        'smart_infrastructure': 'NaN',
+        'data_sharing_platforms': 'Open-source platforms like OpenStreetMap, UNAVCO, and government portals (drrportal.gov.np) were used to share data.',
+        'innovative_solutions': 'Use of high-rate GPS for seismology, ScanSAR interferometry, and FINDER heartbeat detectors in search and rescue operations.'
+    },
+    'historical_context': {
+        'historical_comparisons': 'Worst disaster in Nepal since the 1934 Nepal–India earthquake. Compared in intensity to the 1934 Munghyr and 2001 Gujarat earthquakes.',
+        'recurrence_intervals': 'Studies suggest a 700-870 year recurrence interval for great earthquakes in this region.',
+        'lessons_learned': 'Retrofitted schools and hospitals performed significantly better, highlighting the effectiveness of mitigation. The need for a robust disaster management framework and building code enforcement was reinforced.',
+        'historical_damage_records': 'The 1934 earthquake killed over 10,000 in Kathmandu. The first recorded quake in 1255 killed one-third of the valley\'s population.',
+        'cultural_memory': 'Destruction of iconic and deeply significant structures like the Dharahara Tower and Kasthamandap temple, which are tied to national and cultural identity.',
+        'archival_data': 'Records of past earthquakes, like the 1255 and 1934 events, provided context for the country\'s seismic vulnerability.'
+    },
+    'community_engagement': {
+        'local_leadership_involvement': 'Recovery efforts were planned as owner-driven, relying on community and local-level implementation.',
+        'ngo_contributions': 'A network of local and international NGOs (e.g., NSET, NRRC, Red Cross) were crucial in training, preparedness, rescue, and relief.',
+        'private_sector_role': 'Business houses and private companies contributed relief materials like food and blankets.',
+        'citizen_initiatives': 'Spontaneous and organized volunteer groups, particularly youth, were highly active in rescue, relief, and data collection via crowdmapping.',
+        'media_coverage': 'Local and international media covered the disaster extensively, including reporting on government response and coordination challenges.',
+        'public_awareness_campaigns': 'Pre-disaster efforts by organizations like NSET and NRRC included training masons and promoting seismic resilience.'
+    },
+    'effects': {
+        'property': 'Total damage estimated at $10 billion. 602,567 private houses destroyed, 284,479 partially damaged. Numerous UNESCO World Heritage sites destroyed.',
+        'death': '8964',
+        'displacement': '3500000',
+        'affected_population': '8000000',
+        'economy': '10000000000.0',
+        'infrastructure': '14,500 classrooms, 400 health posts, and numerous government buildings destroyed. Roads, airport, and communication systems damaged.',
+        'environment': 'Major avalanches on Mt. Everest and Langtang Valley; numerous landslides; burst glacial lake.',
+        'disease': 'Outbreak of scrub typhus; high risk of waterborne diseases like cholera and diarrhoea.',
+        'injuries': '23447',
+        'mental_health': 'Widespread psychological shock and trauma, requiring support programs, especially for children.',
+        'food_security': '135,187 metric tons of food damaged. Disruption to planting season threatened future harvests.'
+    },
+    'after_effects': {
+        'property': 'Reconstruction efforts initiated, guided by the National Reconstruction Authority (NRA), with only 12% of funds distributed after 30 months.',
+        'death': '200',
+        'displacement': 'Many remained in temporary shelters for years; landless people faced challenges accessing reconstruction aid.',
+        'affected_population': 'NaN',
+        'economy': 'Increased poverty rate by 2.5-3.5%. Long-term dependency on foreign aid and remittances for recovery.',
+        'infrastructure': 'Long-term reconstruction program launched, with a budget of US$6.7 billion.',
+        'environment': 'Increased frequency and intensity of future landslides predicted for the Langtang Valley due to ground fracturing.',
+        'disease': 'At least 13 deaths from scrub typhus in the year following the earthquake.',
+        'injuries': '2500',
+        'mental_health': 'Long-term mental health issues reported, highlighting the need for sustained psychological care.',
+        'food_security': 'Worsened malnutrition in children reported three months after the quake.'
+    },
+    'responses': 'Search and rescue, medical evacuations, international aid mobilization, establishment of temporary shelters, crisis mapping, distribution of relief supplies (food, water, tents), formation of National Reconstruction Authority (NRA).',
+    'countries_aiding': 'India, China, USA, UK, Australia, Japan, Pakistan, Israel, Canada, Bangladesh, European Union members, and many others.',
+    'response_agencies': 'Nepalese Army, Nepal Police, UNICEF, Médecins Sans Frontières (MSF), Red Cross, World Food Programme (WFP), World Health Organization (WHO), USGS, Asian Development Bank (ADB), National Society for Earthquake Technology (NSET).',
+    'severity': 'High',
+    'warning_issued': False,
+    'warning_level': 'NaN',
+    'economic_cost_currency': 'USD',
+    'environmental_conditions': {
+        'weather': 'Heavy rain complicated rescue efforts and conditions for the displaced.',
+        'temperature': 0.0,
+        'wind_speed': 0.0,
+        'precipitation_type': 'rain',
+        'precipitation_amount': 0.0
+    },
+    'demographic_impacts': {
+        'age_groups': 'children, elderly, productive age group (15-59)',
+        'gender_distribution': 'Reports of increased violence against women and girls. Single women faced greater difficulty accessing relief.',
+        'vulnerable_populations': 'Children, single women, poor and socially excluded groups, Tibeto-Burman ethnic groups (e.g., Tamang, Chepang).'
+    },
+    'infrastructure_details': 'residential buildings, schools, hospitals, health posts, roads, airport, communication towers, temples, UNESCO world heritage sites, government buildings, water supply systems.',
+    'mitigation_measures': 'Pre-earthquake retrofitting of some schools and hospitals, mason training programs, development of building code compliance strategies.',
+    'economic_sectors_affected': 'Tourism, agriculture, insurance, construction, cultural heritage management.',
+    'health_impacts': {
+        'specific_diseases': 'scrub typhus, cholera, diarrhoea',
+        'mental_health_issues': 'shock, anxiety, fear, trauma',
+        'medical_resources_needed': 'field hospitals, surgical kits, medical teams, clean water, sanitation, hygiene kits, psychological support'
+    },
+    'relief_efforts': {
+        'funding_amount': '4400000000.0',
+        'aid_types': 'cash, search and rescue teams, medical supplies, food, water, tents, blankets, technical expertise, engineering support.',
+        'international_organizations': 'UNICEF, WHO, WFP, MSF, Red Cross, ADB, World Bank.',
+        'donor_contributions': 'A total of $4.4 billion was pledged at the International Conference on Nepal\'s Reconstruction. Major donors included India ($1 billion), China ($483 million), and the UK ($130 million).'
+    },
+    'long_term_impacts': {
+        'recovery_timeline': 'Reconstruction expected to take several years; progress was slow, with only 12% of housing funds disbursed by late 2017.',
+        'social_disruption': 'Increased human trafficking, exacerbated social divides between landowners and the landless, and heightened violence against women.',
+        'cultural_impacts': 'Irreparable loss of ancient monuments and heritage sites, requiring extensive and costly restoration.'
+    },
+    'hazard_classification': {
+        'primary_hazard': 'Earthquake',
+        'secondary_hazards': 'aftershocks, landslides, avalanches, disease outbreak',
+        'recurrence_probability': 'NaN'
+    },
+    'communication_systems': 'Damaged infrastructure and poor phone network coverage severely hampered initial response and damage assessment efforts.',
+    'evacuation_details': {
+        'evacuees': '2600000',
+        'evacuation_routes': 'Air evacuation via helicopter and commercial flights; land routes to India.',
+        'shelters': 'temporary camps, open spaces, tents'
+    },
+    'insurance_coverage': {
+        'insured_losses': 'A small fraction of total economic losses were insured.',
+        'coverage_details': 'Extremely low insurance penetration in Nepal, with less than $3.50 spent per capita on property/casualty insurance annually.'
+    },
+    'scientific_observations': {
+        'seismic_activity': '7.8',
+        'wind_speed': 0.0,
+        'rainfall_rate': 0.0,
+        'observation_notes': 'Mainshock Mw 7.8 at 8.2 km depth, caused by a thrust fault. Peak ground acceleration of 0.25g and peak velocity of 108 cm/s recorded. Low-frequency ground motion observed in Kathmandu Valley. A major aftershock of Mw 7.3 occurred on May 12.'
+    }
+}

@@ -1,0 +1,194 @@
+data = {
+    'coordinates': '9.5058,76.3313',
+    'country': 'India',
+    'region': 'Kerala',
+    'climate_zone': 'Tropical monsoon',
+    'terrain_type': 'Coastal, Hilly, Lowlands, River basins',
+    'causes': 'Unusually heavy rainfall during the monsoon season, Landslides, Inefficient dam management, Environmental degradation, Extensive quarrying and mining, Deforestation, Unscientific land use',
+    'occurrence': {
+        'frequency': 'Rare (worst in nearly a century)',
+        'magnitude': '2346.6 mm rainfall from 1 June to 19 August 2018',
+        'trigger': 'Heavy rainfall during monsoon season',
+        'seasonality': 'Monsoon (June-September)'
+    },
+    'hazard_characteristics': {
+        'hazard_subtypes': 'Riverine floods, Flash floods, Coastal floods, Landslides',
+        'intensity_metrics': 'Rainfall 164% above normal in August; 414 mm cumulative rainfall from 15-17 August',
+        'spatial_extent': '13 out of 14 districts affected',
+        'duration': 'July 2018 - August 2018',
+        'seasonal_patterns': 'South-west monsoon season',
+        'predictability': 'Low for event of this magnitude; Red alerts were issued but the severity was unexpected.'
+    },
+    'environmental_impacts': {
+        'biodiversity_loss': 'Dead bodies of birds and animals, livestock washed away. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 9 - "The floodwaters contained sewage, dead bodies of birds and animals, and other contaminants"',
+        'ecosystem_disruption': 'Shrinkage of Vembanad Lake carrying capacity, damage to ecologically sensitive Western Ghats. Source: CWC Report, Page 35 - "shrinkage of carrying capacity of Vembanad Lake and reduction of the capacity of Thottappally spillway worsened the flooding"',
+        'soil_degradation': 'Heavy run-off of top soil up to a depth of two metres in upland areas. Source: combinekerela.txt - "heavy run-off of the top soil in the upland areas and the siltation in the rivers were the reasons for the falling water level... top soil was shaved off"',
+        'water_contamination': 'Drinking water sources contaminated by sewage and other wastes. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 11 - "almost all the wells were submerged in the floodwaters, and the toilet wastes contaminated drinking water sources"',
+        'air_quality_impact': 'NaN',
+        'carbon_footprint': 'NaN'
+    },
+    'societal_impacts': {
+        'education_disruption': 'All schools closed, students lost study materials, exams postponed. Source: 2018 Kerala floods Wikipedia page - "All schools throughout the state were closed... The government cancelled Onam celebrations..."',
+        'employment_impact': 'Primary workforce lost wages for 45 days or more; joblessness increased. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 7 - "The primary workforce in Kerala... had a wage loss of 45 days or more"',
+        'community_resilience': 'Improved neighborly interaction, youth and fishermen actively participated in rescue efforts. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 10 - "More than 70 per cent of the respondents said that their interaction with neighbours improved after the flood."',
+        'cultural_heritage_damage': 'Onam celebrations cancelled, Sabarimala shrine closed. Source: 2018 Kerala floods Wikipedia page - "The government cancelled Onam celebrations... Sabarimala, a Hindu shrine... has been closed"',
+        'public_sentiment': 'Widespread trauma, stress, and fear of future floods; dissatisfaction with government compensation. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 17 - "Insufficient compensation and unfair allocation were the primary reasons for the dissatisfaction."',
+        'displacement_patterns': 'About one million people evacuated to over 3,274 relief camps and relatives\' houses. Source: 2018 Kerala floods Wikipedia page - "Over 483 people died,[6] and about one million[7][8] people were evacuated... Over 3,274 relief camps[7] were opened"'
+    },
+    'economic_details': {
+        'indirect_economic_losses': '57,000 hectares of crops damaged, small and medium enterprises heavily affected. Source: 483 dead in Kerala floods and landslides, losses more than annual plan outlay: Pinarayi Vijayan - "The agricultural production of the state has also been hit, with 57,000 hectares of crops damaged."',
+        'reconstruction_costs': '400000000000.0',
+        'insurance_penetration': 'NaN',
+        'relief_funding_sources': "Chief Minister's Distress Relief Fund, Central government (SDRF, NDRF), State governments, Corporate firms, NGOs, General public, International aid",
+        'economic_recovery_indicators': 'Financial aid to households, interest-free loans through Kudumbasree, rebuilding initiatives. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 9 - "The authorities ensured interest-free loans up to rupees 1 lakh through Kudumbasree to the flood affected to refurbish their houses."'
+    },
+    'response_enhancements': {
+        'response_timelines': 'Immediate rescue operations by state and central forces; rapid restoration of power and issuance of duplicate documents. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 8 - "The state government of Kerala immediately responded to the situation with rescue operations."',
+        'volunteer_involvement': '4537 fishermen, 37,000 volunteers from People\'s Foundation, and countless youth participated. Source: Rescue operation by fishermen section - "a total of 4,537 fishermen communities... participated in the rescue operation with 669 fishing boats."',
+        'logistical_challenges': 'Rescue teams unable to reach some locations due to overflowing water, whirlpools, and debris. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 8 - "The army\'s rescue team could not reach all flood-affected locations... due to the overflowing of floodwater, whirlpools, large trees, and large walls."',
+        'shelter_capacity': 'Over 10,000 camps opened, housing up to 1,247,496 people. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 8 - "More than 10000 camps were opened"',
+        'post_event_policies': 'Recommendations to review dam rule curves, protect river basins, and regulate quarrying and deforestation. Source: CWC Report, Page 35 - "It is essential to review the rule curves of all the reservoirs in Kerala."',
+        'technology_used': 'Social media and WhatsApp used for coordination and information dissemination. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 8 - "To disseminate government instructions and speed up rescue operations, social media played an important role."'
+    },
+    'health_details': {
+        'vaccination_campaigns': 'NaN',
+        'mental_health_programs': 'PARIRAKSHA project launched to provide psychological support to 2 million people. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 10 - "to recover the flood victims from the mental shock, the state government introduced a project known as \\"PARIRAKSHA\\""',
+        'healthcare_access': 'Hospitals cancelled routine operations and OPDs; 140 people were hospitalized for flood-related issues. Source: 483 dead in Kerala floods and landslides... Pinarayi Vijayan - "While 14 people are reported to be still missing, around 140 people were admitted to hospitals during this period."',
+        'infectious_disease_spread': 'Increased risk of diseases due to contamination, but no major outbreaks were reported. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 9 - "no contagious diseases were reported in Kerala."',
+        'nutrition_impacts': 'Government distributed food grain kits for three months to affected families. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 11 - "More than fifty per cent of the respondents got this kit of food grains for three months."',
+        'medical_supply_shortages': 'NaN'
+    },
+    'infrastructure_utilities': {
+        'power_outages': 'Nearly 2.5 million electricity connections were disrupted. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 7 - "Nearly 25 lakhs of electricity connections were disrupted."',
+        'water_supply_impact': 'Access to drinking water disrupted for 20% of the population; water treatment plants shut down. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 7 - "Access to drinking water was disrupted for 20% of the state’s population."',
+        'transportation_networks': 'Approx. 50,000 km of roads and over 300 bridges collapsed; airport and train services suspended. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 7 - "More than 300 bridges and approximately 50,000-kilometre roads collapsed."',
+        'telecommunications_recovery': 'Telecom operators like Jio, BSNL, Airtel offered free services to customers. Source: Kerala floods live updates: Death toll rises to 164... - "Jio, BSNL, Airtel announce free services for customers in Kerala"',
+        'critical_facilities': 'Schools, hospitals, and worship centers were damaged or used as relief camps. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 8 - "More than 1700 schools, worship centres, colleges, and other institutions were used as relief camps."',
+        'building_damage_assessment': 'Over 1.75 lakh buildings damaged, with 13,362 fully destroyed. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 7 - "About 13,362 houses were fully damaged; more than one lakh houses were severely damaged."'
+    },
+    'scientific_data': {
+        'precursor_events': 'The 2011 Gadgil report warned about risks of landslides and premature silting of reservoirs in the Western Ghats. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 6 - "The Gadgil report (Government of India, 2011) highlighted that many reservoirs... are silting up prematurely..."',
+        'real_time_monitoring': 'The National Crisis Management Committee regularly monitored the situation. Source: 2018 Kerala floods Wikipedia page - "The situation was regularly monitored by the National Crisis Management Committee"',
+        'post_event_analysis': 'Studies conducted by Central Water Commission, UN agencies, IIT Madras, and Purdue University. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 4 - "Secondary data were collected from the Post Disaster Needs Assessment conducted by UN agencies..."',
+        'climate_data_integration': 'IMD rainfall data was extensively used for analysis; studies linked the event to climate change. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 10 - "Hunt, K. M., and Menon, A. (2020), “The 2018 Kerala floods: a climate change perspective”"',
+        'geological_changes': '341 landslides occurred; significant topsoil erosion leading to post-flood drought conditions. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 7 - "The non-stopped torrential rainfall leads to 341 landslides in this small state."',
+        'hazard_modeling': 'Computer simulation of flood storage and flow patterns conducted by IIT Madras and Purdue University. Source: 2018 Kerala floods Wikipedia page - "Based on a computer simulation of flood storage and flow patterns by a team of researchers from IIT Madras and Purdue University..."'
+    },
+    'policy_governance': {
+        'government_response_levels': 'Declared a Level 3 Calamity (calamity of a severe nature) by the Indian government. Source: 2018 Kerala floods Wikipedia page - "The Indian government declared it a Level 3 Calamity, or \\"calamity of a severe nature\\"."',
+        'international_treaties': 'NaN',
+        'community_feedback_mechanisms': 'Reports of public dissatisfaction with compensation allocation. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 17 - "Insufficient compensation and unfair allocation were the primary reasons for the dissatisfaction."',
+        'regulatory_gaps': 'Criticism of KSDMA for outdated plans, inefficient fund use, and poor early warning systems. Allegations of prioritizing power generation over dam safety. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 7 - "The KSDMA was found to have failed to ensure effective coordination... failed to update disaster management plans on time..."',
+        'cross_border_impacts': 'Kerala government alleged that sudden water release from Mullaperiyar Dam by Tamil Nadu aggravated the flood. Source: 2018 Kerala floods Wikipedia page - "The government of Kerala argued in the Supreme Court that the sudden release of water from the Mullaperiyar Dam by the Tamil Nadu government was one of the reasons for the devastating flood"',
+        'legal_actions': 'A court-appointed advisor alleged bad dam management by the state government. Government explored legal options to receive foreign aid. Source: 2018 Kerala floods Wikipedia page - "A report by Adv. Jacob P. Alex, an advisor appointed by the Kerala high court, alleged that the devastating floods of 2018 were the result of bad dam management"'
+    },
+    'technology_innovation': {
+        'ai_tech_interventions': 'NaN',
+        'remote_sensing_data': 'Rainfall rasters were prepared from point rainfall data for analysis. Source: CWC Report, Page 5 - "1-day, 2-day, and 3-day rainfall raster have been prepared from the point rainfall data."',
+        'crowdsourced_data': 'WhatsApp groups served as control centers to coordinate help and support. Source: 2018 Kerala floods Wikipedia page - "WhatsApp groups sprung up as control centers that coordinated help and support across various areas."',
+        'smart_infrastructure': 'NaN',
+        'data_sharing_platforms': 'Social media was used to disseminate government instructions and coordinate rescue operations. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 8 - "To disseminate government instructions and speed up rescue operations, social media played an important role."',
+        'innovative_solutions': 'PARIRAKSHA project for psychological first aid; engagement of fishermen with their own boats for rescue. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 8 - "the Chief Minister of Kerala described the fishermen as the ‘Army of Kerala’"'
+    },
+    'historical_context': {
+        'historical_comparisons': 'Worst flood in nearly a century, comparable to the Great Flood of 99 (1924). Source: 2018 Kerala floods Wikipedia page - "It was the worst flood in Kerala in nearly a century... It is the worst flood in Kerala after the great flood of \\'99 that took place in 1924."',
+        'recurrence_intervals': 'A 100-year event. Source: 2018 Kerala floods Wikipedia page - "It was the worst flood in Kerala in nearly a century."',
+        'lessons_learned': 'Need to review dam rule curves, update disaster management plans, and regulate development in ecologically sensitive areas. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 22 - "Timely updating of disaster management strategies is very important in the unexpected climate-changing scenario."',
+        'historical_damage_records': 'The 1924 flood killed over 1,000 people. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 5 - "Kerala experienced the highest rainfall in 1924 (3368 mm)... more than 1000 people died"',
+        'cultural_memory': 'The fury of the 1924 flood was still fresh in the memory of the people. Source: CWC Report, Page 2 - "The fury of 1924 flood levels in most of the rivers was still fresh in the memory of people of Kerala"',
+        'archival_data': 'The CWC report compared the 2018 rainfall data with the isohyets of the 1924 Devikulam storm. Source: CWC Report, Page 6 - "The severity of the storm has been compared with the storm of 16-18, July 1924 centred at Devikulam in Kerala in Table-5."'
+    },
+    'community_engagement': {
+        'local_leadership_involvement': 'Local government institutions led massive cleaning drives. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 9 - "Under the guidance of the state and the local government institutions... Kerala conducted a massive drive to clean flood-affected houses..."',
+        'ngo_contributions': 'IsraAid, People\'s Foundation, Mata Amritanandamayi Math, and others provided relief, cleaned houses, and donated funds. Source: IsraAid comes to the rescue... - "IsraAid, an Israeli humanitarian organization, has sent an emergency response team to help."',
+        'private_sector_role': 'Major corporations like Reliance, Adani, Aster DM Healthcare, and oil companies donated substantial funds and materials. Source: Corporate and individual section - "Reliance Foundation chairperson Nita Ambani has announced a donation of ₹21 crore..."',
+        'citizen_initiatives': 'Fishermen rescued over 65,000 people; youth organized rescue and relief efforts; citizens used social media to coordinate aid. Source: Rescue operation by fishermen section - "They managed to rescue more than 65,000 people from various districts."',
+        'media_coverage': 'Social media played a key role in information dissemination and coordination. Source: Disaster & Development, Vol. 13, Issue 01, January to June 2024 8 - "social media played an important role."',
+        'public_awareness_campaigns': 'Red alerts were issued and government used social media to disseminate instructions. Source: 2018 Kerala floods Wikipedia page - "All 14 districts of the state were placed on red alert."'
+    },
+    'effects': {
+        'property': 'Over 175,000 buildings damaged or destroyed, including 13,362 fully destroyed houses.',
+        'death': '483',
+        'displacement': '1000000',
+        'affected_population': '5,400,000',
+        'economy': '400000000000.0',
+        'infrastructure': 'Approx. 50,000 km of roads, >300 bridges, Cochin International Airport, railways, and power supply for 2.5 million connections were damaged or disrupted.',
+        'environment': '341 landslides, widespread water contamination from sewage and waste, and significant topsoil erosion in hilly regions.',
+        'disease': 'No major outbreaks reported, though risk of infectious diseases was high due to contaminated water.',
+        'injuries': '140',
+        'mental_health': 'Widespread trauma, stress, and anxiety among the affected population, leading to the launch of the PARIRAKSHA project.',
+        'food_security': '59,345 hectares of crops washed away, affecting 300,000 farmers. Loss of stored food grains and livestock.'
+    },
+    'after_effects': {
+        'property': 'Multiple organizations launched housing projects to build thousands of new homes for survivors.',
+        'death': 'NaN',
+        'displacement': 'Post-flood, the number of people in relief camps reduced to 59,296 in 305 camps.',
+        'affected_population': 'High socio-economic deprivation (SEDI index 0.78) was recorded in affected households post-flood.',
+        'economy': 'The state explored legal options to avail foreign aid offers for rebuilding.',
+        'infrastructure': 'Power connections were restored quickly, but long-term rebuilding of roads and bridges commenced.',
+        'environment': 'An immediate post-flood drought was observed, with water levels in wells and rivers dropping significantly due to topsoil run-off.',
+        'disease': 'NaN',
+        'injuries': 'NaN',
+        'mental_health': 'The PARIRAKSHA project was initiated in March 2019 but was later interrupted by the COVID-19 pandemic.',
+        'food_security': 'The government provided food grain kits for three months to support affected families.'
+    },
+    'responses': 'Search and rescue operations, relief camps, financial aid, cleaning drives, medical support, restoration of utilities, volunteer mobilization, dam water release',
+    'countries_aiding': 'European Union, Maldives, Pakistan, Thailand, Qatar, UAE (offer), Israel (via NGO)',
+    'response_agencies': 'Coast Guard, National Disaster Response Force (NDRF), Kerala Fire and Rescue Services, Army, Navy, Air Force, Central Reserve Police Force (CRPF), Border Security Force (BSF), Kerala State Disaster Management Authority (KSDMA), Central Water Commission (CWC), UN agencies, Caritas India, IsraAid, People\'s Foundation',
+    'severity': 'High',
+    'warning_issued': True,
+    'warning_level': 'Red',
+    'economic_cost_currency': 'INR',
+    'environmental_conditions': {
+        'weather': 'Torrential monsoon rains',
+        'temperature': 0.0,
+        'wind_speed': 0.0,
+        'precipitation_type': 'Rain',
+        'precipitation_amount': 2346.6
+    },
+    'demographic_impacts': {
+        'age_groups': 'Children, pregnant women, elderly',
+        'gender_distribution': 'NaN',
+        'vulnerable_populations': 'Low-income people, daily wage earners, informal sector workers, farmers, fisher folks'
+    },
+    'infrastructure_details': 'Dams, roads, bridges, railways, airports, communication networks, power supplies, water treatment plants, houses, schools, hospitals',
+    'mitigation_measures': 'Opening dam gates, evacuation, relief camps',
+    'economic_sectors_affected': 'Agriculture, Livestock, Tourism, Small and medium enterprises, Construction, Fisheries',
+    'health_impacts': {
+        'specific_diseases': 'Risk of infectious diseases increased, no major outbreaks',
+        'mental_health_issues': 'Trauma, stress, anxiety, fear of future floods',
+        'medical_resources_needed': 'Psychological support, medicines'
+    },
+    'relief_efforts': {
+        'funding_amount': '47400000000.0',
+        'aid_types': 'Financial support, food grain kits, clothes, medicines, footwear, interest-free loans, duplicate documents, temporary shelter',
+        'international_organizations': 'European Union, UN agencies',
+        'donor_contributions': 'Various state governments, corporate entities, NGOs, and individuals contributed to the Chief Minister\'s Distress Relief Fund.'
+    },
+    'long_term_impacts': {
+        'recovery_timeline': 'Rebuilding efforts ongoing; psychological support project interrupted by COVID-19.',
+        'social_disruption': 'High socio-economic deprivation recorded post-flood, with an index of 0.78.',
+        'cultural_impacts': 'Cancellation of the state\'s largest festival, Onam.'
+    },
+    'hazard_classification': {
+        'primary_hazard': 'Flooding',
+        'secondary_hazards': 'Landslides, water contamination, infrastructure collapse',
+        'recurrence_probability': '0.0006'
+    },
+    'communication_systems': 'Social media and WhatsApp groups were critical for coordination and information dissemination. Telecom operators provided free services.',
+    'evacuation_details': {
+        'evacuees': '1000000',
+        'evacuation_routes': 'NaN',
+        'shelters': 'Relief camps in schools, worship centres, colleges, other institutions'
+    },
+    'insurance_coverage': {
+        'insured_losses': 'NaN',
+        'coverage_details': 'NaN'
+    },
+    'scientific_observations': {
+        'seismic_activity': 'NaN',
+        'wind_speed': 0.0,
+        'rainfall_rate': 398.0,
+        'observation_notes': 'Rainfall from 15-17 August 2018 was comparable to the historic 1924 flood. August rainfall was 164% above normal. Peak one-day rainfall was 398 mm at Nilambur.'
+    }
+}
