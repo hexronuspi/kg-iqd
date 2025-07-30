@@ -59,7 +59,7 @@ const Title = () => (
                       rigorous and fair evaluation, our methodology mitigates positional bias through output randomization
                        and employs a metric that penalizes verbosity and irrelevance. The results demonstrate a clear
                         advantage: GIQD outperforms RQ-RAG by 14% and KG by 18%. Our dataset, code and output are publicly
-                         available at: <Link href="https://github.com/hexronuspi/GIQD" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">github.com/hexronuspi/GIQD</Link>.
+                         available at: <Link href="https://github.com/hexronuspi/giqd" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">github.com/hexronuspi/giqd</Link>.
         </p>
     </div>
 
