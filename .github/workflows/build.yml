@@ -1,0 +1,41 @@
+name: Build Next.js Static Site
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./web
+
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🟢 Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: 📦 Install dependencies
+        run: npm ci
+
+      - name: 🧪 Lint (optional)
+        run: npm run lint
+
+      - name: 🛠️ Build and Export
+        run: npm run deploy
+
+      - name: 📦 Upload exported site as artifact (optional)
+        uses: actions/upload-artifact@v4
+        with:
+          name: exported-site
+          path: web/out/
