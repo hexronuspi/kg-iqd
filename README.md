@@ -22,3 +22,14 @@ Standard QA systems struggle with complex queries over noisy, heterogeneous data
 These sub-queries then guide a precise RAG process, ensuring the final answer is grounded in both:
 *   Factual KG triples.
 *   Relevant textual evidence from source documents.
+
+<hr/>
+
+## Authors
+
+Aditya Raj<sup>1</sup>, Kuldeep Kurte<sup>2</sup>
+
+<br>
+
+<sup>1</sup>National Institute of Technology, Patna  
+<sup>2</sup>IIIT Hyderabad
