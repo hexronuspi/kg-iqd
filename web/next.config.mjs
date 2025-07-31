@@ -2,8 +2,8 @@
 
 const nextConfig = {
   output: 'export',
-  basePath: '/giqd',
-  assetPrefix: '/giqd/',
+  basePath: '/kg-iqd',
+  assetPrefix: '/kg-iqd/',
 };
 
 export default nextConfig;

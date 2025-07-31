@@ -2,14 +2,14 @@ import Image from 'next/image';
 import React from 'react';
 
 const Mid = () => {
-  const frameworkPath = "/giqd/archKG.png";
-  const datasetPath = "/giqd/dataKG.png";
+  const frameworkPath = "/kg-iqd/archKG.png";
+  const datasetPath = "/kg-iqd/dataKG.png";
 
   return (
     <section className="bg-white font-sans text-gray-800 p-6 md:p-8 w-full">
       <div className="w-full max-w-6xl mx-auto space-y-16">
 
-        {/* Section 1: GIQD Framework */}
+        {/* Section 1: KG-IQD Framework */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           
           <div className="w-full flex justify-center">
@@ -18,12 +18,12 @@ const Mid = () => {
 
           {/* Framework Description */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-gray-800">GIQD Framework</h3>
+            <h3 className="text-2xl font-bold text-gray-800">KG-IQD Framework</h3>
             
             <div>
               <strong className="font-semibold text-gray-700">KG-Guided Query Decomposition:</strong>
               <p className="text-gray-600 mt-1 text-sm leading-relaxed">
-                GIQD first grounds the user query by retrieving relevant triples from our disaster-specific KG. This structured context provides a semantically rich prior that guides an LLM in decomposing the initial complex prompt into a series of focused, single-answer sub-queries.
+                KG-IQD first grounds the user query by retrieving relevant triples from our disaster-specific KG. This structured context provides a semantically rich prior that guides an LLM in decomposing the initial complex prompt into a series of focused, single-answer sub-queries.
               </p>
             </div>
             

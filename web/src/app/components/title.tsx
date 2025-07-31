@@ -20,7 +20,7 @@ const socialIcons = {
 const Title = () => (
   <section className="bg-white font-sans text-gray-800 p-8 md:p-12 w-full flex flex-col items-center text-center">
     <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 max-w-7xl">
-      Graph-Informed Query Decomposition (GIQD): Hybrid KG-RAG Reasoning in Sparse Contexts
+      Knowledge Graph-Informed Query Decomposition(KG-IQD): Hybrid KG-RAG Reasoning in Noisy Context
     </h1>
 
     <div className="mt-8 flex flex-col md:flex-row justify-center items-center gap-8 md:gap-12">
@@ -43,23 +43,19 @@ const Title = () => (
     <div className="mt-12 w-full max-w-3xl text-left">
         <h2 className="text-2xl font-bold text-center text-gray-900 mb-4">Abstract</h2>
         <p className="text-base text-gray-700 leading-relaxed text-justify">
-            Synthesizing actionable intelligence from the noisy and heterogeneous data of disaster events remains a
-             significant challenge for AI systems. The prevailing Retrieval-Augmented Generation (RAG) paradigm,
-              while powerful, struggles with efficient retrieval and is suboptimal without specific structuring
-               for the comparative analysis crucial in disaster response. Its reliance on isolated text chunks
-                neglects the broader contextual fabric that connects disparate information. To address these
-                 limitations, we introduce GIQD (Graph-Informed Query Decomposition), a novel hybrid framework
-                  that enriches the RAG pipeline with a Knowledge Graph (KG). GIQD first grounds the query in
-                   our custom spatio-temporal KG, extracting relevant structured entities and relationships. 
-                   This graph-derived insight enables a strategic decomposition of complex user queries into a
-                    set of, focused event-specific subqueries. These, in turn, guide a highly targeted RAG process,
-                     ensuring that the final LLM-generated synthesis is coherently grounded in both the retrieved
-                      textual evidence and the rich, structured context of the KG. We evaluated GIQD against strong 
-                      baselines using our novel Indian Disaster Dataset and an &quot;LLM-as-judge&quot; framework. To ensure a 
-                      rigorous and fair evaluation, our methodology mitigates positional bias through output randomization
-                       and employs a metric that penalizes verbosity and irrelevance. The results demonstrate a clear
-                        advantage: GIQD outperforms RQ-RAG by 14% and KG by 18%. Our dataset, code and output are publicly
-                         available at: <Link href="https://github.com/hexronuspi/giqd" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">github.com/hexronuspi/giqd</Link>.
+            Disaster data is inherently noisy and heterogeneous, posing significant challenges for automated reasoning. 
+            Retrieval-Augmented Generation (RAG) systems retrieve relevant documents but often fail to capture relational 
+            structure, impairing tasks such as comparative analysis and summarization, critical for disaster response. 
+            Knowledge graphs (KGs), while structured, are often sparse and lack contextual depth, which may not allow them 
+            to capture in-depth information needed for reasoning and planning queries. We propose Knowledge Graph-Informed 
+            Query Decomposition (KG-IQD), a hybrid KG-RAG framework that uses KGs to strategically guide the query 
+            decomposition into a set of focused, single-answer, contextually relevant subqueries, which perform the 
+            highly targeted RAG process, ensuring that the final LLM-generated answer is coherently grounded in both 
+            the retrieved textual evidence and the rich structured context of the KG. We evaluated KG-IQD against strong 
+            baselines using our novel Indian Disaster Dataset and an &quot;LLM-as-judge&quot; framework. To ensure a rigorous and 
+            fair evaluation, our methodology mitigates positional bias through output randomization and employs a metric 
+            that penalizes verbosity and irrelevance. The results demonstrate a clear advantage: KG-IQD outperforms RQ-RAG 
+            by 14% and KG by 18%. Our dataset, code, and output are publicly available at: <Link href="https://github.com/hexronuspi/kg-iqd" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">github.com/hexronuspi/kg-iqd</Link>.
         </p>
     </div>
 

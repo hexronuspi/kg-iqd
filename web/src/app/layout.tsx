@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "GIQD",
-  description: "Graph-Informed Query Decomposition(GIQD): Hybrid KG-RAG Reasoning in Sparse Contexts",
+  title: "kg-iqd",
+  description: "Knowledge Graph-Informed QueryDecomposition(KG-IQD): Hybrid KG-RAG Reasoning in Noisy Contexts",
 };
 
 export default function RootLayout({
