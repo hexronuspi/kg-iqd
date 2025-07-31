@@ -9,10 +9,10 @@ const valuationQueries = [
 ];
 
 const judgeScores = [
-  { id: 'M1', kg: 9.3, rag: 7.5, llm: 4.5, KG-IQD: 10.0 },
-  { id: 'M2', kg: 8.0, rag: 9.0, llm: 6.0, KG-IQD: 10.0 },
-  { id: 'H1', kg: 9.4, rag: 9.7, llm: 3.8, KG-IQD: 10.0 },
-  { id: 'H2', kg: 7.0, rag: 9.0, llm: 5.0, KG-IQD: 10.0 },
+  { id: 'M1', kg: 9.3, rag: 7.5, llm: 4.5, kgiqd: 10.0 },
+  { id: 'M2', kg: 8.0, rag: 9.0, llm: 6.0, kgiqd: 10.0 },
+  { id: 'H1', kg: 9.4, rag: 9.7, llm: 3.8, kgiqd: 10.0 },
+  { id: 'H2', kg: 7.0, rag: 9.0, llm: 5.0, kgiqd: 10.0 },
 ];
 
 const evaluationCriteria = [
@@ -88,7 +88,7 @@ const Result = () => {
                     <td className="px-4 py-3 text-center">{score.kg.toFixed(1)}</td>
                     <td className="px-4 py-3 text-center">{score.rag.toFixed(1)}</td>
                     <td className="px-4 py-3 text-center">{score.llm.toFixed(1)}</td>
-                    <td className="px-4 py-3 text-center font-bold text-green-700 bg-green-50 rounded">{score.KG-IQD.toFixed(1)}</td>
+                    <td className="px-4 py-3 text-center font-bold text-green-700 bg-green-50 rounded">{score.kgiqd.toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>
