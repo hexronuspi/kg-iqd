@@ -1,1 +1,1 @@
-Website for GIQD
+Website for KG-IQD
